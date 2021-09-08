@@ -7,6 +7,17 @@
             "Elasticity": "ability to scale out and scale in when needed",
             "High-Availability_Fault-Tolerance": "Build across data centers",
             "Agility": "Rapidly developed, test and lauch software applications"
+        },
+        "Different-Types-of-cloud": {
+            "Infrastructure as a service": {
+                "name": "IaaS",
+                "info": {
+                    "A": "provide building blocks for cloud IT",
+                    "B": "Provides networking, computer, data storage space",
+                    "C": "Highest level of flexibility",
+                    "D": "Easy parallel with traditional on-premises IT"
+                }
+            }
         }
     }
 ]
