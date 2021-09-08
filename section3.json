@@ -1,6 +1,6 @@
 [
     {
-        "ProblemsSolvedByTheCloud": {
+        "Problems Solved By The Cloud": {
             "Flexibility": "Change Resources types when needed",
             "Cost-Effectiveness": "Pay as you go, for what you use",
             "Scalability": "Accomodate larger loads by making hardware stronger or adding additional nodes",
@@ -8,7 +8,8 @@
             "High-Availability_Fault-Tolerance": "Build across data centers",
             "Agility": "Rapidly developed, test and lauch software applications"
         },
-        "Different-Types-of-cloud": {
+
+        "Different Types of cloud": { 
             "Infrastructure as a Service": {
                 "name": "IaaS",
                 "info": {
@@ -18,6 +19,7 @@
                     "D": "Easy parallel with traditional on-premises IT"
                 }
             },
+
             "Platform as a Service": {
                 "name": "PaaS",
                 "info": {
@@ -25,6 +27,7 @@
                     "B": "Focus on the deployment and management of your applications"
                 }
             },
+            
             "Sofware as a Service": {
                 "name": "SaaS",
                 "info": {
