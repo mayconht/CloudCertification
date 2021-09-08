@@ -51,8 +51,16 @@
         }
     },
     "how to choose an Region": {
-        "Complience" : "With data governance and legal requirements: Data never leaves a region without your explicit permission.",
-        "Proximity"  : "A good idea is to keep closer to your clients avoiding latency",
-        "Available Services" : "Not all services are available in every region."
-     }
+        "Complience": "With data governance and legal requirements: Data never leaves a region without your explicit permission.",
+        "Proximity": "A good idea is to keep closer to your clients avoiding latency",
+        "Available Services": "Not all services are available in every region",
+        "Pricing": "pricing varies region to region and is transparent in the service pricing page"
+    },
+    "Region Info": {
+        "Info": "Each region has many availability zones (from 2 to 6)",
+        "Availability Zones": "Each AZ is one or more datacenter with dedundant power, networking and connection",
+        "data center": "They are separeted from each other so they are isolated from disasters",
+        "connection": "They are connected with High Bandwidth and ultra-low latency networking",
+        "EdgeLocations": "Regional Caches that are used to deliver services and files with low latency"
+    }
 }
