@@ -2,11 +2,11 @@
     {
         "ProblemsSolvedByTheCloud": {
             "Flexibility": "Change Resources types when needed",
-            "Cost-Effectiveness" : "Pay as you go, for what you use",
-            "Scalability" : "Accomodate larger loads by making hardware stronger or adding additional nodes",
-            "Elasticity" : "ability to scale out and scale in when needed",
-            "High-Availability_Fault-Tolerance" : "Build across data centers",
-            "Agility" : "Rapidly developed, test and lauch software applications"
+            "Cost-Effectiveness": "Pay as you go, for what you use",
+            "Scalability": "Accomodate larger loads by making hardware stronger or adding additional nodes",
+            "Elasticity": "ability to scale out and scale in when needed",
+            "High-Availability_Fault-Tolerance": "Build across data centers",
+            "Agility": "Rapidly developed, test and lauch software applications"
         }
     }
 ]
