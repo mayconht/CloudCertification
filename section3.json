@@ -1,55 +1,58 @@
-[
-    {
-        "Problems Solved By The Cloud": {
-            "Flexibility": "Change Resources types when needed",
-            "Cost-Effectiveness": "Pay as you go, for what you use",
-            "Scalability": "Accomodate larger loads by making hardware stronger or adding additional nodes",
-            "Elasticity": "ability to scale out and scale in when needed",
-            "High-Availability_Fault-Tolerance": "Build across data centers",
-            "Agility": "Rapidly developed, test and lauch software applications"
-        },
-        "Different Types of cloud": {
-            "Infrastructure as a Service": {
-                "name": "IaaS",
-                "info": {
-                    "A": "provide building blocks for cloud IT",
-                    "B": "Provides networking, computer, data storage space",
-                    "C": "Highest level of flexibility",
-                    "D": "Easy parallel with traditional on-premises IT"
-                },
-                "services": {
-                    "Amazon": "Amazon EC2",
-                    "Others": "GCP, Azure, Rackspace, Digital Ocean, Linode"
-                }
+{
+    "Problems Solved By The Cloud": {
+        "Flexibility": "Change Resources types when needed",
+        "Cost-Effectiveness": "Pay as you go, for what you use",
+        "Scalability": "Accomodate larger loads by making hardware stronger or adding additional nodes",
+        "Elasticity": "ability to scale out and scale in when needed",
+        "High-Availability_Fault-Tolerance": "Build across data centers",
+        "Agility": "Rapidly developed, test and lauch software applications"
+    },
+    "Different Types of cloud": {
+        "Infrastructure as a Service": {
+            "name": "IaaS",
+            "info": {
+                "A": "provide building blocks for cloud IT",
+                "B": "Provides networking, computer, data storage space",
+                "C": "Highest level of flexibility",
+                "D": "Easy parallel with traditional on-premises IT"
             },
-            "Platform as a Service": {
-                "name": "PaaS",
-                "info": {
-                    "A": "Removes the need for your organization to manage the underlying infrastructure",
-                    "B": "Focus on the deployment and management of your applications"
-                },
-                "services": {
-                    "Amazon": "Elastic Beanstalk",
-                    "Others": "Heroku, Google App Engine, Windows Azure"
-                }
-            },
-            "Sofware as a Service": {
-                "name": "SaaS",
-                "info": {
-                    "A": "Completed product that is run and managed by the service provider"
-                },
-                "services": {
-                    "Amazon": "Rekognition for Machine Learning",
-                    "Others": "Google Apps, DropBox, zoom"
-                }
+            "services": {
+                "Amazon": "Amazon EC2",
+                "Others": "GCP, Azure, Rackspace, Digital Ocean, Linode"
             }
         },
-        "Pricing of the Cloud" : {
-            "Pay as you go" :{
-                "A" : "Compute",
-                "B" : "Storage", 
-                "C" : "Data Transfer OUT of the cloud"
+        "Platform as a Service": {
+            "name": "PaaS",
+            "info": {
+                "A": "Removes the need for your organization to manage the underlying infrastructure",
+                "B": "Focus on the deployment and management of your applications"
+            },
+            "services": {
+                "Amazon": "Elastic Beanstalk",
+                "Others": "Heroku, Google App Engine, Windows Azure"
+            }
+        },
+        "Sofware as a Service": {
+            "name": "SaaS",
+            "info": {
+                "A": "Completed product that is run and managed by the service provider"
+            },
+            "services": {
+                "Amazon": "Rekognition for Machine Learning",
+                "Others": "Google Apps, DropBox, zoom"
             }
         }
-    }
-]
+    },
+    "Pricing of the Cloud": {
+        "Pay as you go": {
+            "A": "Compute",
+            "B": "Storage",
+            "C": "Data Transfer OUT of the cloud"
+        }
+    },
+    "how to choose an Region": {
+        "Complience" : "With data governance and legal requirements: Data never leaves a region without your explicit permission.",
+        "Proximity"  : "A good idea is to keep closer to your clients avoiding latency",
+        "Available Services" : "Not all services are available in every region."
+     }
+}
