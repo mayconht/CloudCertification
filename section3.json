@@ -18,16 +18,16 @@
                     "D": "Easy parallel with traditional on-premises IT"
                 }
             },
-            "Platform as a Service" : {
-                "name" : "PaaS",
+            "Platform as a Service": {
+                "name": "PaaS",
                 "info": {
-                    "A" : "Removes the need for your organization to manage the underlying infrastructure",
-                    "B" : "Focus on the deployment and management of your applications"
+                    "A": "Removes the need for your organization to manage the underlying infrastructure",
+                    "B": "Focus on the deployment and management of your applications"
                 }
             },
-            "Sofware as a Service" : {
-                "name" : "SaaS",
-                "info":{
+            "Sofware as a Service": {
+                "name": "SaaS",
+                "info": {
                     "A": "Completed product that is run and managed by the service provider"
                 }
             }
