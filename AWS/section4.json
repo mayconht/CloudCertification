@@ -1,0 +1,12 @@
+{
+    "IAM" : "Identify and Access Management, Global Service",
+    "Groups" : "Same system as linux, a user can be on multiple groups and have different roles",
+    "Permission" : "Assigned by a Json Document called Policies",
+    "Personal credentials" : {
+        "user" : "maycondss",
+        "pass" : "Cp1132rm7sZ",
+        "url" : "https://215717951792.signin.aws.amazon.com/console",
+        "info" : "We should never use a root account, it is interesting be using a role defined account for deploy and development"
+
+    }
+}
