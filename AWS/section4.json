@@ -37,6 +37,25 @@
             "aws configure": "The first command to add aws info",
             "how to" : "copy and paste data from AWS KEY and region. Output format is not mandatory",
             "additional info" : "you can add a new key from IAM users (Do not create for a Root account)"
-        }
+        },
+        "cloud-shell" : "it is an online CLI that can be used through aws website"
+    },
+    "IAM roles for Services" : "Some services will need to change things on your behalf, so you can assign permissions to them to do so.",
+    "IAM Security Tools" : {
+        "IAM Credentials Report" : "Account Level - Report that lists your accounts users and the status of their credentials",
+        "IAM Access Advisor" : "User Level -  Shows the service permissions granted to a user and when those services were last accessed"
+    },
+    "Best Practices" : {
+        "A" : "Dont use root account, except fot aws account setup",
+        "B" : "One physical user = One AWS User",
+        "C" : "Use MFA",
+        "D" : "Create Strong Password Policy",
+        "E" : "Create Roles for giving Permissions to AWS services",
+        "F" : "Use Access Key for CLI and SDK",
+        "G" : "Use reports to audit accounts",
+        "H" : "NEVER SHARE USERS AND ACCESS KEYS"
+    },
+    "Shared Responsability model for IAM" : {
+        
     }
 }
