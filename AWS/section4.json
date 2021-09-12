@@ -22,7 +22,14 @@
                 "Condition" : "conditions for when this policy is in effect. Optional"
             }
         },
-        "Info" : "You can create a file for IAM Policies manually or using the Assistent on the AWS IAM"
+        "Info" : "You can create a file for IAM Policies manually or using the Assistent on the AWS IAM",
+        "Password Policies" : "You can define User Password Policies, so the user will be forced to follow the rules defined by root.",
+        "MFA" : "It is a good practice user a Password + Device to connect to those accounts"
+    },
+    "Access AWS System" : {
+        "AWS Management Console" : "Password + MFA",
+        "AWS Command Line Interface" : "CLI - Protected by Access Key",
+        "AWS Software Development Kit" : "SDK - for code, Protected by access key"
 
     }
 }
