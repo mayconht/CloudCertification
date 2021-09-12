@@ -1,13 +1,28 @@
 {
-    "IAM" : "Identify and Access Management, Global Service",
-    "Groups" : "Same system as linux, an user can be on multiple groups and have different roles",
-    "Permission" : "Assigned by a Json Document called Policies",
-    "Personal credentials" : {
-        "user" : "maycondss",
-        "pass" : "Cp1132rm7sZ",
-        "url" : "https://215717951792.signin.aws.amazon.com/console",
-        "url-alias" : "https://darkdollynho.signin.aws.amazon.com/console",
-        "info" : "We should never use a root account, it is interesting be using a role defined account for deploy and development"
+    "IAM": "Identify and Access Management, Global Service",
+    "Personal credentials": {
+        "user": "maycondss",
+        "pass": "Cp1132rm7sZ",
+        "url": "https://215717951792.signin.aws.amazon.com/console",
+        "url-alias": "",
+        "info": "We should never use a root account, it is interesting be using a role defined account for deploy and development"
+    },
+    "IAM Policies Inheritance": {
+        "Groups": "Same system as linux, an user can be on multiple groups and have different roles and access",
+        "Permission": "Assigned by a Json Document called Policies",
+        "IAM Policies Structure" : {
+            "Version" : "2012-10-17",
+            "Id" : "optional. An identifier for the policy",
+            "Statement" :{
+                "Sid" : "Statement ID. Optional",
+                "Effect" : "Allow or Deny Access",
+                "Principal" : "Account, user or row that should have effect",
+                "Action" : "List of actions that the policy allows or denies",
+                "Resource" : "List of recourse that the actions applies to.",
+                "Condition" : "conditions for when this policy is in effect. Optional"
+            }
+        },
+        "Info" : "You can create a file for IAM Policies manually or using the Assistent on the AWS IAM"
 
     }
 }
