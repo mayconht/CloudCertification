@@ -1,3 +1,15 @@
 {
-    "Billing Info" : "Was created a 10 dolars budget on AWS bills. So it will alert us when we are close to reach this ammount."
+    "Billing Info" : "Was created a 10 dolars budget on AWS bills. So it will alert us when we are close to reach this ammount.",
+    "EC2" :{
+        "text" : "Elastic Compute Cloud = IaaS",
+        "EC2 sizing and configuration" : {
+            "OS" : "Linux, Windows or MacOs",
+            "CPU": "How Much power and cores",
+            "RAM" : "How Much",
+            "Stogare" : "EBS & EFS or EC2 Store and how much",
+            "Network" : "Speed, IP and so on",
+            "Firewall" : "Security Groups",
+            "Bootstrap Script" : "Ec2 User Data"
+        }
+    }
 }
