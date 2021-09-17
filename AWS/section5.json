@@ -15,7 +15,9 @@
         "Lauching an EC2 Instance" : {
             "AMI" : "Amazon Machine Image",
             "OS" : "You can select any OS you want, depending on your service",
-            "Configure" : "In that case in Advanced Details we can set a UserData, that is a Script that will run when the system boots"
+            "Configure" : "In that case in Advanced Details we can set a UserData, that is a Script that will run when the system boots",
+            "Ports" : "you'll need to create the ports from a list, depending on your needs. There are a few prebuilt port.",
+            "SSH" : "you'll have to provide or create a new key to access the ssh"
 
         }
     }
