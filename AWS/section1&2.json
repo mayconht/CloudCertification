@@ -6,10 +6,10 @@
             "AccountLogin": "https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3Ffromtb%3Dtrue%26hashArgs%3D%2523%26isauthcode%3Dtrue%26state%3DhashArgsFromTB_us-east-1_4c4e65b9a1d13b90&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&forceMobileApp=0&code_challenge=faBSaT0LV4A1ZcMYMxC-nsJhZqpNN96g6E11BdXTFew&code_challenge_method=SHA-256",
             "Console": "https://us-east-2.console.aws.amazon.com/console/home?region=us-east-2#"
         },
-        "Additional Info" : {
-            "Text" : "It may be necessary a credit card, Amazon will verify your data using your credit card.",
+        "Additional Info": {
+            "Text": "It may be necessary a credit card, Amazon will verify your data using your credit card.",
             "MaterialDownload": "https://courses.datacumulus.com/downloads/certified-cloud-practitioner-zb2/",
-            "PracticeExams" : "https://www.udemy.com/course/practice-exams-aws-certified-cloud-practitioner/?couponCode=SEP_21_GET_STARTED"
+            "PracticeExams": "https://www.udemy.com/course/practice-exams-aws-certified-cloud-practitioner/?couponCode=SEP_21_GET_STARTED"
         }
     }
 ]
