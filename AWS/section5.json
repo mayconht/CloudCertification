@@ -19,6 +19,14 @@
             "Ports": "you'll need to create the ports from a list, depending on your needs. There are a few prebuilt port.",
             "SSH": "you'll have to provide or create a new key to access the ssh",
             "start-stop": "Everytime you start or stop an instance of EC2 the public IP will change"
+        },
+        "Types of EC2 Instance": {
+            "General Purpose" : "Balanced",
+            "Compute Optimized" : "CPU Workload",
+            "Memory Optimized": "Memory Workload",
+            "Accelerated Computing" : "GPU Workload",
+            "Storage Optimized" : "Data Workload for storage"
+
         }
     }
 }
