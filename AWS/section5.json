@@ -27,6 +27,8 @@
             "Accelerated Computing" : "GPU Workload",
             "Storage Optimized" : "Data Workload for storage"
 
-        }
+        },
+        "Security Groups" : "It is like a firewall for EC2 instances, it can allow or block a connection from any source and location"
     }
+    
 }
