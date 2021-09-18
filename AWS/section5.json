@@ -35,6 +35,19 @@
             "HTTP": "80",
             "HTTPS": "443",
             "RDP Windows": "3389"
+        },
+        "SSH Connection to EC2 Instance" : "ssh -i `YourFile.PEM` ec2-user@publicIpAddress ", 
+        "Roles" : "You can ADD IAM roles for the Instances",
+        "EC2 Instance Purchasing Options" :{
+            "On-Demand" : "Billing by second after first minute(linux only)(other OS per hour) No Upfront payment - Most common, for short workload, predictable pricing",
+            "Reserved" : {
+                "Reserved" : "1 Year or 3 years (discount may apply) no upfront/Partial upfront/ all up front up to 75% cheaper -  Used for long workloads", 
+                "Convertible": "Long workloads with flexible instances (change the type of workload) up to 54% cheaper / 1 Year or 3 years (discount may apply) no upfront/Partial upfront/ all up front",
+                "Scheduled" : "With a simple schedule to run / 1 Year or 3 years (discount may apply) no upfront/Partial upfront/ all up front"
+            },
+            "Spot" : "Short instance with short workload, up to 90% cheap useful for workloads that are resilient to failure",
+            "Dedicated Hosts" : "Baremetal"
         }
+        
     }
 }
