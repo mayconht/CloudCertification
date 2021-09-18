@@ -21,14 +21,20 @@
             "start-stop": "Everytime you start or stop an instance of EC2 the public IP will change"
         },
         "Types of EC2 Instance": {
-            "General Purpose" : "Balanced",
-            "Compute Optimized" : "CPU Workload",
+            "General Purpose": "Balanced",
+            "Compute Optimized": "CPU Workload",
             "Memory Optimized": "Memory Workload",
-            "Accelerated Computing" : "GPU Workload",
-            "Storage Optimized" : "Data Workload for storage"
-
+            "Accelerated Computing": "GPU Workload",
+            "Storage Optimized": "Data Workload for storage"
         },
-        "Security Groups" : "It is like a firewall for EC2 instances, it can allow or block a connection from any source and location"
+        "Security Groups": "It is like a firewall for EC2 instances, it can allow or block a connection from any source and location",
+        "important ports (certification)": {
+            "SSH": "22",
+            "FTP": "21",
+            "SFTP": "22",
+            "HTTP": "80",
+            "HTTPS": "443",
+            "RDP Windows": "3389"
+        }
     }
-    
 }
