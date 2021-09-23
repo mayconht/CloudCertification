@@ -1,4 +1,5 @@
 {
+    "Name": "EC2 - Elastic Compute Cloud",
     "Billing Info": "Was created a 10 dolars budget on AWS bills. So it will alert us when we are close to reach this ammount.",
     "EC2": {
         "text": "Elastic Compute Cloud = IaaS",
