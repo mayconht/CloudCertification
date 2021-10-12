@@ -1,10 +1,15 @@
 {
-    "Name": " EC2 - Instance Storage",
-    "info": {
+    "EC2 - Instance Storage": {
         "EBS": "Elastic Block Store - Is a volume (a network drive) that can be used in a instance",
         "Data": "It is used to persist data, even after termination. and they only can be mounted one instance at a time",
         "az": "it is bound to a specific availability zone",
         "IOPS": "input and output per second.",
-        "simplifying": "it is a docker volume"
-    }
+        "simplifying": "it is a docker volume",
+        "Delete on Termination" : "It means the volume will be deleted when the EC2 Instance get deleted",
+        "snapshot" : "Volume Backup, that can allow you to transfer trough regions (using Copy function)"
+    },
+
+    
+
+
 }
