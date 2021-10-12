@@ -11,7 +11,8 @@
     "AMI": {
         "info" : "Amazon machine image. You can customize your EC2 Instace with OS, config, software and so on. (like custom DockerImage from scratch)",
         "configs" : "Cron, schedules, manual builder",
-        "Create" : "you can create a Image using an running instance, it make easy to us build faster with all necessary dependencies"
+        "Create" : "you can create a Image using an running instance, it make easy to us build faster with all necessary dependencies",
+        "EC2 Image Builder" : "You can create, build, generate an image, test and be distributed. It is an pipeline to be executed just like Deployment Pipelines"
     }
 
     
