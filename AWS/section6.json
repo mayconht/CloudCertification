@@ -5,17 +5,15 @@
         "az": "it is bound to a specific availability zone",
         "IOPS": "input and output per second.",
         "simplifying": "it is a docker volume",
-        "Delete on Termination" : "It means the volume will be deleted when the EC2 Instance get deleted",
-        "snapshot" : "Volume Backup, that can allow you to transfer trough regions (using Copy function)"
+        "Delete on Termination": "It means the volume will be deleted when the EC2 Instance get deleted",
+        "snapshot": "Volume Backup, that can allow you to transfer trough regions (using Copy function)"
     },
     "AMI": {
-        "info" : "Amazon machine image. You can customize your EC2 Instace with OS, config, software and so on. (like custom DockerImage from scratch)",
-        "configs" : "Cron, schedules, manual builder",
-        "Create" : "you can create a Image using an running instance, it make easy to us build faster with all necessary dependencies",
-        "EC2 Image Builder" : "You can create, build, generate an image, test and be distributed. It is an pipeline to be executed just like Deployment Pipelines"
+        "info": "Amazon machine image. You can customize your EC2 Instace with OS, config, software and so on. (like custom DockerImage from scratch)",
+        "configs": "Cron, schedules, manual builder",
+        "Create": "you can create a Image using an running instance, it make easy to us build faster with all necessary dependencies",
+        "EC2 Image Builder": "You can create, build, generate an image, test and be distributed. It is an pipeline to be executed just like Deployment Pipelines",
+        "Final": "You can use AMI or a dockerfile, Amazon has tons of components linke java, python and so on to install automatically. no code necessary.",
+        "Region": "you can also set where the image will be available (regions)"
     }
-
-    
-
-
 }
